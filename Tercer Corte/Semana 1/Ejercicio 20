@@ -1,0 +1,26 @@
+using System;
+using System.Collections;
+
+namespace Ejercicio20
+{
+    public class Ejercicio20
+    {
+        public string TrimStart ();
+
+        // Borra todos los elementos con espacio en blanco en una cadena actual 
+        {
+            public static string[] StripComments(string[] lines)
+    {
+             List<string> lineList = new List<string>();
+             foreach (string line in lines)
+        {
+             if (line.TrimStart(' ').StartsWith("//"))
+             lineList.Add(line.TrimStart(' ', '/'));
+    }
+    return lineList.ToArray();
+}
+        } // El Strimp Comments ajusta a la llegada de TrimStart y pasa una matriz que contiene
+        //un espacio y el caracter, el TrimStart para eliminar los espacios blancos en una cadena 
+
+    }
+}

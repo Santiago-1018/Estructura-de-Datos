@@ -1,0 +1,27 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.Globalization; 
+
+namespace Ejercicio25
+{
+    public class Ejercicio25
+    {
+            public string ToString (int startIndex, int length);
+
+            //Transforma el valor de una subcadena de esa instancia en la actual cadena  
+            {
+                var sb = new StringBuilder();
+
+                for (int i = 0; i < 10; i++)
+            {
+                sb.Append(i.ToString());
+            }
+                Console.WriteLine a(sb);  
+
+                sb[0] = sb[9]; 
+
+                Console.WriteLine a(sb);  
+        }
+    }   // Se utiliza un objeto StringBuilder para crear una cadena a partir de datos numericos 
+}

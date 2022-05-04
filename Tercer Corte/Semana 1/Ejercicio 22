@@ -1,0 +1,18 @@
+using System;
+using System.Collections;
+
+namespace Ejercicio22
+{
+    public class Ejercicio22
+    {
+        public System.Text.StringBuilder Append (char value, int repeatCount);
+
+        //Agrega un numero especifico de copias en la copia de un caracter 
+        {
+            decimal value = 1346.19m;
+            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            sb.Append('*', 5).AppendFormat("{0:C2}"", value).Append('*', 5);
+            Console.WriteLine(sb);
+        }
+    }  // La instancia existente de esta clase es modificada, debido a esto se le llama a un metodo existente o no 
+}    

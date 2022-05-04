@@ -1,0 +1,31 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.Globalization; 
+
+
+namespace Ejercicio23
+{
+    public class Ejercicio23
+    {
+        public static void WriteLine (string? valor);
+
+        //El valor de la cadena junto con el terminador de linea actual, en el flujo estandar
+        
+        StringBuilder[] lineas = { "primera linea ","Segunda liena." };
+         Console.WriteLine("Guion the default new lineas caracteres:");
+         Console.WriteLine();
+         foreach (string linea in lines)
+         Console.WriteLine(lineas);
+
+         Console.WriteLine();
+
+         Console.Out.NewLine = "\r\n\r\n";
+         Console.WriteLine("Guion redefined new linea caracteres:");
+         Console.WriteLine();
+         foreach (string linea in lineas)
+         Console.WriteLine(linea);
+
+         // Se calcula y cambia el valor y se usa WriteLine y WriteLine (StringBuilder) 
+    }
+}

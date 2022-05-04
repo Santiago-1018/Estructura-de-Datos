@@ -1,0 +1,19 @@
+using System;
+using System.Collections;
+
+namespace Ejercicio19
+{
+    public class Ejercicio19
+    {
+        public string Trim (params char[]? trimChars);
+
+        //Elimina toda las iniciales y finales de caracteres en una matriz dentro de una cadena
+        {
+            char[] charsToTrim = { '*', ' ', '\''};
+            string next = "***El metodo trim() sirve para***";
+            string result = next.Trim(charsToTrim);
+            Console.WriteLine("Trimmed\n  {0}\nto\n  '{1}'", next, result);
+        }
+
+    }  //Utilizamos el metodo trim() para borrar caracteres de espacio, apostrofes y asteriscos 
+}

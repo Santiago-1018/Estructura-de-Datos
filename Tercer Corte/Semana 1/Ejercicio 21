@@ -1,0 +1,19 @@
+using System;
+using System.Collections;
+
+namespace Ejercicio21
+{
+    public class Ejercicio21
+    {
+        public string TrimEnd (char trimChar);
+
+        //Elimina todos los finales de un caracter en una cadena actual
+        {
+            string oracion = "EL metodo End:";
+            char[] charsToTrim = {',', '.', ' '};
+            string[] trabajos = oracion.Split();
+            foreach (string trabajo in trabajos)
+            Console.WriteLine(word.TrimEnd(charsToTrim));
+        } 
+    }  // Metodo para recortar los espacion en blanco o los signos en una cadena finales 
+}   
